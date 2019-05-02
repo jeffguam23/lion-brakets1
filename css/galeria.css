@@ -1,0 +1,236 @@
+#header #logo img {
+    margin: 0px;
+    width: 70px;
+}
+@media (max-width: 673px){
+    #logo {
+    margin-left: 10px;
+    }
+}
+.main-menu {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 0.5px solid #39353e;
+}
+
+#header #logo img {
+        max-height: 60px
+    }
+.fas{
+    font-size: 30px;
+    color: #F7631B;
+    padding-right: 13px;
+}
+    
+.search-course-area .overlay-bg {
+    background: rgba(4,9,30,0.78);
+}
+    
+.about-banner {
+    background: url(../img/top-banner.jpg) right no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-attachment: fixed; 
+}
+.titulo-header{
+    text-align: center;
+    padding-left: 7px;
+}
+.titulo-header h4, h5{
+ color: #FFF;   
+}
+.titulo-header h4{
+    font-size: .9rem
+}
+.titulo-header h5{
+    font-size: .6rem
+}
+@media only screen and (min-width:768px){
+    .titulo-header h5{
+    font-size: 1.2rem
+    }
+    .titulo-header h4{
+    font-size: 1.4rem
+    }    
+}
+.footer-social a {
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}  
+.footer-social a i {
+    vertical-align: bottom;
+}
+.footer-bottom {
+    display: none
+}
+.footer-social{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.cta-two-area {
+    background: url(../img/grupo-graduacion.jpg) right no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    padding: 150px 0px;
+    
+}
+.cta-two-area .overlay-bg {
+    background: rgba(4,9,30,0.4);
+}
+
+@media only screen and (min-width: 768px){
+    .titulo-header h5 {
+    font-size: 1.09rem;
+    }
+    
+    .titulo-header h4{
+    font-size: 1.4rem
+    }    
+    
+    .nav-menu a:hover{
+   
+    transition-duration: .2s;
+    background-color: #FFF;
+    
+        
+    }
+}
+.section-gap {
+    padding: 40px 0;
+}
+@media (max-width: 768px){
+    .about-banner, .cta-two-area{
+        background-attachment: scroll;
+    }
+}
+@media (max-width: 480px){
+    #mobile-nav-toggle {
+        top: 55px;
+    }
+}
+@media (min-width: 480px){
+    #mobile-nav-toggle {
+    top: 75px;  
+    }
+}
+#mobile-nav-toggle {
+    font-size: 38px;  
+    
+}
+.titulo-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    padding: 5px 8px;
+}
+    .titulo-header a{
+    text-decoration: none;
+    color: white
+}
+
+.footer-bottom-area{
+    background-color: #001023;
+    padding: 15px 0px;
+    color: #FFF
+}
+.footer-area {
+    padding-bottom: 0px
+}
+.header-top ul{
+    margin-bottom: 0px;
+}
+.footer-area .container{
+    padding: 40px 15px
+}
+
+.nav-menu>li {
+    margin-left: 0px;
+}
+
+
+
+
+
+
+.section.portfolio .filters {
+  text-align: center;
+  margin-top: 50px;
+}
+.section.portfolio .filters ul {
+  padding: 0;
+}
+.section.portfolio .filters ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+   
+    margin: 3px;
+}
+.section.portfolio .filters ul li:after {
+  content: "";
+  display: block;
+  width: calc(0% - 60px);
+  position: absolute;
+  height: 2px;
+  background: #386793;
+  transition: width 350ms ease-out;
+}
+.section.portfolio .filters ul li:hover:after {
+  width: calc(100% - 60px);
+  transition: width 350ms ease-out;
+  
+}
+.section.portfolio .filters ul li:hover{
+ background-color: #FEDC00;
+  
+}
+.section.portfolio .filters ul li.active:after {
+  width: calc(100% - 60px);
+}
+.section.portfolio .filters-content {
+  margin-top: 50px;
+}
+.section.portfolio .filters-content .show {
+  opacity: 1;
+  visibility: visible;
+  transition: all 350ms;
+}
+.section.portfolio .filters-content .hide {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 350ms;
+}
+.section.portfolio .filters-content .item {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.section.portfolio .filters-content .item .p-inner {
+  padding: 20px 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.section.portfolio .filters-content .item .p-inner h5 {
+  font-size: 15px;
+}
+.section.portfolio .filters-content .item .p-inner .cat {
+  font-size: 13px;
+}
+.section.portfolio .filters-content .item img {
+  width: 100%;
+}
